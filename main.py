@@ -1,6 +1,6 @@
 import random
 
-print("Welcome to Tic Tac Toe")
+print("Are you better than python")
 print("----------------------")
 
 possibleNumbers = [1,2,3,4,5,6,7,8,9]
@@ -56,11 +56,11 @@ def checkForWinner(gameBoard):
     print("X has won!")
     return "X"
   elif(gameBoard[2][0] == 'O' and gameBoard[2][1] == 'O' and gameBoard[2][2] == 'O'):
-    print("O has won!")
+    print("O is the best!")
     return "O"
   ### Y axis
   if(gameBoard[0][0] == 'X' and gameBoard[1][0] == 'X' and gameBoard[2][0] == 'X'):
-    print("X has won!")
+    print("X is a champ!")
     return "X"
   elif(gameBoard[0][0] == 'O' and gameBoard[1][0] == 'O' and gameBoard[2][0] == 'O'):
     print("O has won!")
